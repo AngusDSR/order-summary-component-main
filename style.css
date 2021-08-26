@@ -108,6 +108,9 @@ header p {
 	font-weight: bold;
 	color: var(--bright-blue);
 }
+/*.change-plan:hover {
+	opacity: 0.7;
+}*/
 
 .pay-btn {
 	width: 100%;
@@ -122,12 +125,20 @@ header p {
 	color: #fff;
 	text-decoration: none;
 }
+.pay-btn:hover,
+.change-plan:hover {
+	opacity: 0.7;
+}
 
 .cancel-link {
 	font-size: .9rem;
 	font-weight: 800;
 	text-decoration: none;
 	color: var(--desaturated-blue);
+}
+.cancel-link:hover {
+	color: var(--dark-blue);
+
 }
 
 .attribution {
