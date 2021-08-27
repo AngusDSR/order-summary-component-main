@@ -138,6 +138,7 @@ header p {
 }
 
 .attribution {
+	display: none;
 	padding-top: 40px;
 	font-size: 12px; 
 	line-height: 1.8;
