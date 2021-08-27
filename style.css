@@ -20,7 +20,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	background-image: url('images/pattern-background-mobile.svg');
-	background-size: contain;
+	background-size: cover;
 	background-repeat:repeat-x;
 	background-blend-mode: darken;
 	background-color: var(--pale-blue);
@@ -30,7 +30,7 @@ body {
 }
 
 .order-summary-card {
-	max-width: 325px;
+	max-width: 350px;
 	background-color: #fff;
 	border: 0;
 	border-radius: 18px;
@@ -43,7 +43,7 @@ body {
 	height: 160px;
 	background-image: url('images/illustration-hero.svg');
 	background-size: contain;
-	background-repeat: no-repeat;
+	background-repeat: round;
 	border-radius: 18px 18px 0 0;
 }
 
